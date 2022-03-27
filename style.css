@@ -28,6 +28,7 @@
     justify-content: flex-start;
     align-items: center;  
 }
+
 #active {
     color:white;
 }
@@ -127,26 +128,25 @@
     font-size:medium;
     color:#999;
 }
+
 /*Connection Requests */
-#nomarg {
-    margin: 0;
-}
 .connectionRequests {
     padding: 10px;
     font-weight: bold;
-    
-    
 }
 .todd, .phil {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .req {
     display: flex;
+    gap: 5px;
 }
 
 .accept {
     height: 40px;
+    
 }
 /*Your Connections */
 .yourConnections {
@@ -164,6 +164,7 @@
     background-color: white;
     border: 2px solid black;
     margin-top: 10px;
+    margin-bottom: 8px;
 }
 
 .rightColumn li{
